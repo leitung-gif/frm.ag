@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   FORUM AARGAU — SHARED JAVASCRIPT
+   FORUM AARGAU: SHARED JAVASCRIPT
    Loader, Lenis, GSAP, Nav, Cookie Consent, Form
    ═══════════════════════════════════════════════ */
 (function () {
