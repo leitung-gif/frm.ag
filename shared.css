@@ -93,7 +93,8 @@ h1,h2,h3,h4 { font-weight: 900; line-height: 0.9; text-transform: uppercase; let
   width: 42px; height: 42px; border: 2px solid var(--navy);
   display: flex; justify-content: center; align-items: center;
 }
-.logo-f svg { width: 55%; height: 55%; fill: var(--navy); }
+.logo-f svg { width: 64%; height: 64%; fill: var(--navy); }
+.logo-a { fill: var(--magenta); }
 .logo-text { display: flex; flex-direction: column; }
 .logo-main { font-family: var(--font-serif); font-weight: 700; font-size: 1.4rem; letter-spacing: .02em; line-height: 1; color: var(--navy); }
 .logo-sub  { font-size: .55rem; font-weight: 600; letter-spacing: .25em; color: var(--magenta); margin-top: .15rem; }
