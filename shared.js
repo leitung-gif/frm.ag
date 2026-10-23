@@ -167,7 +167,7 @@
     link.addEventListener('click', e => {
       const id = link.getAttribute('href').slice(1);
       const target = document.getElementById(id);
-      if (!target) return;
+      if (!target) { if (link.hasAttribute('data-todo')) e.preventDefault(); return; }
       e.preventDefault();
       target.scrollIntoView({ behavior: 'smooth' });
     });
