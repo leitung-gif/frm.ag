@@ -88,16 +88,14 @@ h1,h2,h3,h4 { font-weight: 900; line-height: 0.9; text-transform: uppercase; let
 }
 .header.hide { transform: translateY(-100%); }
 
-.logo-container { display: flex; align-items: center; gap: .8rem; }
-.logo-f {
-  width: 42px; height: 42px; border: 2px solid var(--navy);
-  display: flex; justify-content: center; align-items: center;
-}
-.logo-f svg { width: 64%; height: 64%; fill: var(--navy); }
+/* Logo: Wort-/Bildmarke FORUM AARGAU, final 23.10.2026 */
+.logo-container { display: flex; align-items: center; flex-shrink: 0; }
+.logo-img { display: block; height: 40px; width: auto; }
 .logo-a { fill: var(--magenta); }
-.logo-text { display: flex; flex-direction: column; }
-.logo-main { font-family: var(--font-serif); font-weight: 700; font-size: 1.4rem; letter-spacing: .02em; line-height: 1; color: var(--navy); }
-.logo-sub  { font-size: .55rem; font-weight: 600; letter-spacing: .25em; color: var(--magenta); margin-top: .15rem; }
+.footer-logo { margin-bottom: 1.6rem !important; }
+.footer-logo img { display: block; height: 36px; width: auto; }
+@media (min-width: 1001px) and (max-width: 1180px) { .logo-img { height: 28px; } }
+@media (max-width: 600px) { .logo-img { height: 30px; } }
 
 /* Desktop nav */
 .nav-links { display: flex; gap: .1rem; align-items: center; }
@@ -478,8 +476,8 @@ h1,h2,h3,h4 { font-weight: 900; line-height: 0.9; text-transform: uppercase; let
 }
 .fokus-teaser h2 { color: var(--navy); margin-bottom: 1rem; }
 .fokus-teaser .btn-massive { flex-shrink: 0; }
-.nav-links a, .logo-sub { white-space: nowrap; }
-@media (max-width: 1180px) { .nav-links a { padding: .6rem .5rem; letter-spacing: .04em; } .nav-cta { padding: .6rem .9rem !important; } .logo-sub { letter-spacing: .12em; } }
+.nav-links a { white-space: nowrap; }
+@media (max-width: 1180px) { .nav-links a { padding: .6rem .5rem; letter-spacing: .04em; } .nav-cta { padding: .6rem .9rem !important; } }
 @media (max-width: 800px) {
   .fokus-card { grid-template-columns: 1fr; }
   .fokus-photo { border-right: none; border-bottom: 4px solid var(--black); min-height: 220px; }
